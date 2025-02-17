@@ -477,3 +477,8 @@ dog-classifier-predictor-00001-deployment-5464f9fc6d-c2mhq   1/2     Terminating
 dog-classifier-predictor-00001-deployment-5464f9fc6d-hp8kt   1/2     Terminating   0          4m32s
 imagenet-vit-predictor-00004-deployment-7d9766c646-k9t87     2/2     Running       0          121m
 ```
+
+## Delete Cluster
+```bash
+❯ eksctl delete cluster --name basic-cluster --region us-east-1
+```
