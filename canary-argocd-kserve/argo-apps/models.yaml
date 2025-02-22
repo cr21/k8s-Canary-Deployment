@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/satyajitghana/canary-argocd-kserve.git
-    targetRevision: emlo4
-    path: model-deployments
+    repoURL: https://github.com/cr21/Kubernetes-Argo-Deployment.git
+    targetRevision: main
+    path: canary-argocd-kserve/argo-apps/model-deployments
   destination:
     server: https://kubernetes.default.svc
     namespace: default
