@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/cr21/Kubernetes-Argo-Deployment.git
     targetRevision: main
-    path: canary-argocd-kserve/argo-apps/model-deployments
+    path: model-deployments
   destination:
     server: https://kubernetes.default.svc
     namespace: default
